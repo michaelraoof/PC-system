@@ -1,0 +1,24 @@
+Manufacturer,Model,Capacity,Nvme,Interface ,Type,Form_factor,Price ,Link
+Seagate,Barracuda Compute,2 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",55$,https://bit.ly/3kx2ch8
+Western Digital,Caviar Blue,1 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",45$,https://amz.run/3TPV
+Western Digital,Caviar Blue,8 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",90$,https://amz.run/3TPW
+Seagate,Barracuda Compute,3 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",75$,https://bit.ly/3fBR52E
+Western Digital,Black,2 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",120$,https://amz.run/3TPZ
+Seagate,Barracuda,500 GB,No,SATA 6 Gb/s,7200RPM,"3.5""",26$,https://amz.run/3TPa
+Western Digital,Caviar Blue,6 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",142$,https://amz.run/3TPb
+Western Digital,Black,6 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",228$,https://amz.run/3TPc
+Seagate,BarraCuda Pro ,10 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",293$,https://amz.run/3TPd
+Seagate,IronWolf Pro,16 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",500$,https://amz.run/3TPf
+Western Digital ,Gold,18 TB,No,SATA 6 Gb/s,7200RPM,"3.5""",592$,https://amz.run/3TPg
+Samsung ,970 Evo ,500 GB,Yes,M.2 (M),SSD,M.2-2280,90$,https://amz.run/3TPu
+Samsung ,971 Evo ,1 TB,Yes,M.2 (M),SSD,M.2-2280,170$,https://amz.run/3TPv
+Crucial,P1,1 TB,Yes,M.2 (M),SSD,M.2-2280,105$,https://amz.run/3TPw
+Crucial,P1,500 GB,Yes,M.2 (M),SSD,M.2-2280,60$,https://amz.run/3TPx
+Samsung,970 EVO Plus,2 TB,Yes,M.2 (M),SSD,M.2-2280,350$,https://amz.run/3TPz
+Western Digital,SN750,1 TB,Yes,M.2 (M),SSD,M.2-2280,150$,https://amz.run/3TQ0
+Corsair,MP600,1 TB,Yes,M.2 (M),SSD,M.2-2280,194$,https://amz.run/3TQ1
+Silicon Power,A60,256 GB,Yes,M.2 (M),SSD,M.2-2280,38$,https://amz.run/3TQ2
+ADATA, SX8200 Pro,512 GB,Yes,M.2 (M),SSD,M.2-2280,70$,https://amz.run/3TQ3
+Gigabyte,AORUS,2 TB,Yes,M.2 (M),SSD,M.2-2280,400$,https://amz.run/3TQ4
+ADATA,XPG 8100,4 TB,Yes,M.2 (M),SSD,M.2-2280,757$,https://amz.run/3TQ5
+Intel,DC P4510,8 TB,Yes,U.2,SSD,"2.5""",1775$,https://amz.run/3TQ6

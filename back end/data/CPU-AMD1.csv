@@ -1,0 +1,33 @@
+cpu_name ,generation,code_name,socket,process_size,foundry,tjmax,frequency,turbo_clock,base clock,tdp,NO_cores,NO_threads,integrated_graphics,release_date,memory_support,Price,Link
+AMD EPYC 7F72,Zen 2,Rome, SP3,"	7 nm",TSMC,"	95°C",3.2 GHz,up to 3.7 GHz,100 MHz,240 W,24,48,N/A,"Apr 14th, 2020","DDR4-3200 MHz
+Eight-channel",2450$,
+AMD EPYC 7F52,Zen 2,Rome,SP3,7 nm,TSMC,"	95°C",3.5 GHz,up to 3.9 GHz,100 MHz,155 W,16,32,N/A,"Apr 14th, 2020","DDR4-3200 MHz
+Eight-channel",3100$,
+AMD Ryzen Threadripper 3990X,Zen 2 (Matisse),Matisse,TR4,7 nm,TSMC,"	95°C",2.9 GHz,up to 4.3 GHz,100 MHz,280 W,64,128,N/A,"Feb 7th, 2020","DDR4-3200 MHz
+Quad-channel",3600$,https://amz.run/3TQd
+AMD Ryzen Threadripper PRO 3975WX,Zen 2 (Matisse),Matisse,TR4,7 nm,TSMC,"	95°C",3.5 GHz,up to 4.2 GHz,100 MHz,280 W,32,64,N/A,"Jul 14th, 2020","DDR4-3200 MHz
+Quad-channel",,
+AMD Ryzen 9 3900XT,Zen 2 (Matisse),Matisse 2,AM4,7 nm,TSMC,95°C,3.9 GHz,up to 4.7 GHz,100 MHz,105 W,12,24,N/A,"Jul 7th, 2020","DDR4-3200 MHz
+Dual-channel",480$,https://amz.run/3TQf
+AMD Ryzen 7 3800XT,Zen 2 (Matisse),Matisse 2,AM4,7 nm,TSMC,95°C,3.8 GHz,up to 4.7 GHz,100 MHz,105 W,8,16,N/A,"Jul 7th, 2020","DDR4-3200 MHz
+Dual-channel",400$,https://amz.run/3TQg
+AMD Ryzen 9 3900X,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.8 GHz,up to 4.6 GHz,100 MHz,105 W,12,24,N/A,"Jul 7th, 2019","DDR4-3200 MHz
+Dual-channel",430$,https://amz.run/3TQh
+AMD Ryzen 7 3800X,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.9 GHz,up to 4.5 GHz,100 MHz,105 W,8,16,N/A,"Jul 7th, 2019","DDR4-3200 MHz
+Dual-channel",330$,https://amz.run/3TQi
+AMD Ryzen 7 3700X,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.6 GHz,up to 4.4 GHz,100 MHz,65 W,8,16,N/A,"Jul 7th, 2019","DDR4-3200 MHz
+Dual-channel",283$,https://amz.run/3TQj
+AMD Ryzen 5 3600XT,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.8 GHz,up to 4.5 GHz,100 MHz,95 W,6,12,N/A,"Jul 7th, 2019","DDR4-3200 MHz
+Dual-channel",245$,https://amz.run/3TQk
+AMD Ryzen 5 3600,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.6 GHz,up to 4.2 GHz,100 MHz,65 W,6,12,N/A,"Jul 7th, 2019","DDR4-3200 MHz
+Dual-channel",175$,https://amz.run/3TQl
+AMD Ryzen 5 3500X,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.6 GHz,up to 4.1 GHz,100 MHz,65 W,6,6,N/A,"Sep 24th, 2019","DDR4-3200 MHz
+Dual-channel",270$,https://bit.ly/3kv0QDi
+AMD Ryzen 5 3400G,Zen+ (Picasso),Picasso,AM4,12 nm,GlobalFoundries,95°C,3.7 GHz,up to 4.2 GHz,100 MHz,65 W,4,8,N/A,"Jul 7th, 2019","DDR4-2933 MHz
+Dual-channel",150$,https://amz.run/3TQm
+AMD Ryzen 3 3200G,Zen+ (Picasso),Picasso,AM4,12 nm,GlobalFoundries,,3.6 GHz,up to 4 GHz,100 MHz,65 W,4,4,N/A,"Jul 7th, 2019","DDR4
+Dual-channel",110$,https://amz.run/3TQn
+AMD Ryzen 3 3300X,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.8 GHz,up to 4.3 GHz,100 MHz,65 W,4,8,N/A,"Apr 24th, 2020","DDR4-3200 MHz
+Dual-channel",135$,https://bit.ly/31BBURT
+AMD Ryzen 3 3100,Zen 2 (Matisse),Matisse,AM4,7 nm,TSMC,95°C,3.6 GHz,up to 3.9 GHz,100 MHz,"	65 W",4,8,N/A,"Apr 24th, 2020","DDR4-3200 MHz
+Dual-channel",100$,https://amz.run/3TQo

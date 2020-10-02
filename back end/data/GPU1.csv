@@ -1,0 +1,41 @@
+gpu_name ,architecture,process_size,transistors,generation,bus_interface ,base_clock,boost_clock,memory_clock,memory_size,memory_type,TDP,outputs,release_date,Launch_Price,Link
+NVIDIA TITAN RTX,Turing,12 nm,"18,600 million",GeForce 20,PCIe 3.0 x16,1350 MHz,1770 MHz,1750 MHz,24 GB,GDDR6,280 W,"
+1x HDMI
+3x DisplayPort
+1x USB Type-C","Dec 18th, 2018","2,499 USD",https://amz.run/3TRG
+NVIDIA TITAN V CEO Edition,Volta,12 nm,"21,100 million",GeForce 10,PCIe 3.0 x16,1200 MHz,1455 MHz,848 MHz,32 GB,HBM2,250 W,"1x HDMI
+3x DisplayPort","Jun 21st, 2018",,
+NVIDIA GeForce RTX 2080 Ti,Turing,12 nm,"18,600 million",GeForce 20,PCIe 3.0 x16,1350 MHz,1545 MHz,1750 MHz,11 GB,GDDR6,250 W,"1x HDMI
+3x DisplayPort
+1x USB Type-C","Sep 20th, 2018",999 USD,https://amz.run/3TRJ
+NVIDIA GeForce RTX 2080 SUPER,Turing,12 nm,"13,600 million",GeForce 20,PCIe 3.0 x16,1650 MHz,1815 MHz,1937 MHz,8 GB,GDDR6,250 W,"1x HDMI
+3x DisplayPort
+1x USB Type-C","Jul 23rd, 2019",699 USD,https://amz.run/3TRK
+NVIDIA GeForce RTX 2070 SUPER,Turing,12 nm,"13,600 million",GeForce 20,PCIe 3.0 x16,1605 MHz,1770 MHz,1750 MHz,8 GB,GDDR6,215 W,"1x HDMI
+3x DisplayPort
+1x USB Type-C","Jul 9th, 2019",499 USD,https://amz.run/3TRM
+NVIDIA GeForce RTX 2060 SUPER,Turing,12 nm,"10,800 million",GeForce 20,PCIe 3.0 x16,1470 MHz,1650 MHz,1750 MHz,8 GB,GDDR6,175 W,"1x DVI
+1x HDMI
+2x DisplayPort
+1x USB Type-C","Jul 9th, 2019",399 USD,https://amz.run/3TRN
+NVIDIA GeForce RTX 2060,Turing,12 nm,"10,800 million",GeForce 20,PCIe 3.0 x16,1365 MHz,1680 MHz,1750 MHz,6 GB,GDDR6,160 W,"1x DVI
+1x HDMI
+2x DisplayPort
+1x USB Type-C","Jan 7th, 2019",349 USD,https://amz.run/3TRP
+NVIDIA GeForce GTX 1660 Ti,Turing,12 nm,"6,600 million",GeForce 16,PCIe 3.0 x16,1500 MHz,1770 MHz,1500 MHz,6 GB,GDDR6,120 W,"1x DVI
+1x HDMI
+1x DisplayPort","Feb 22nd, 2019",279 USD,https://amz.run/3TRb
+NVIDIA GeForce GTX 1660 SUPER,Turing,12 nm,"6,600 million",GeForce 16,PCIe 3.0 x16,1530 MHz,1785 MHz,1750 MHz,6 GB,GDDR6,125 W,"1x DVI
+1x HDMI
+1x DisplayPort  1x USB Type-C","Oct 29th, 2019",229 USD,https://amz.run/3TRc
+NVIDIA GeForce GTX 1660,Turing,12 nm,"6,600 million",GeForce 16,PCIe 3.0 x16,1530 MHz,1785 MHz,2001 MHz,6 GB,GDDR5,120 W,"1x DVI
+1x HDMI
+1x DisplayPort","Mar 14th, 2019",219 USD,https://amz.run/3TRd
+NVIDIA GeForce GTX 1650 SUPER,Turing,12 nm,"6,600 million",GeForce 16,PCIe 3.0 x16,1530 MHz,1725 MHz,1500 MHz,4 GB,GDDR6,100 W,"1x DVI
+1x HDMI
+1x DisplayPort","Nov 22nd, 2019",200 USD,https://amz.run/3TRe
+NVIDIA GeForce GTX 1650,Turing,12 nm,"4,700 million",GeForce 16,PCIe 3.0 x16,1485 MHz,1665 MHz,2000 MHz,4 GB,GDDR5,75 W,"1x DVI
+1x HDMI
+1x DisplayPort","Apr 23rd, 2019",149 USD,https://amz.run/3TRf
+NVIDIA GeForce GT 1030 DDR4,Pascal,14 nm,"1,800 million",GeForce 10,PCIe 3.0 x4,1152 MHz,1379 MHz,1050 MHz,2 GB,GDDR4,20 W,"1x DVI
+1x HDMI","Mar 12th, 2018",79 USD,https://amz.run/3TRg

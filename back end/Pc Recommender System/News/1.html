@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+	
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<title>News</title>
+</head>
+ 
+ <body>
+	<div id="logo">
+		<p style="font-size: 50px; color: red"><img src="../Imges/gaming.png" width="80" height="80">PC Recommender</p>  
+	</div>
+
+	<header>
+
+
+		<nav class="navbar navbar-expand-md ">
+	
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto navlinks">
+				<li class="nav-item">
+				<a class="nav-link" href="../homeloged.html"><img src="../Imges/home.png" width="37" height="37"> HOME</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="../build.html"><img src="../Imges/pc.png" width="37" height="37"> BUILD</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="../cat.html"><img src="../Imges/menu.png" width="37" height="37"> Categories</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="news.html"><img src="../Imges/newspaper.png" width="37" height="37"> NEWS</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="http://localhost/mybb/forumdisplay.php?fid=2" target="_blank"><img
+					src="../Imges/foru.png" width="37" height="37"> FORUM</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="../View_History.html" target="_blank"><img src="../Imges/history.jpg" width="37"
+					height="37"> History</a>
+				</li>
+			</ul>
+			</div>
+	
+		</nav>
+		<div>
+	
+			<a class="nav-link" id="user" data-toggle="tooltip" data-placement="bottom" title="My Acc" href="../myaccount/signin.html">
+			<img src="../Imges/user.png" width="40" height="40"> 
+			</a> 
+			
+			<a class="log_out" id="Loged" data-toggle="tooltip" data-placement="bottom" title="My Acc" href="#">
+	
+			</a>
+	
+
+	
+		</div>
+
+
+		
+	</header>
+
+	<div>
+		<div>
+			<h1>Intel's next-gen gaming chips 
+                <br>
+                will take a huge architectural risk to rival AMD's Ryzen
+            </h1>
+        </div>
+        <div>
+            <h6>Intel confirms that Alder Lake, coming 2021, will feature a hybrid computing architecture</h6>
+        </div>
+		<div>
+			<img src="1.jpg" class="news_imge" >
+        </div>
+        <div class="news_dev">
+
+            <p>
+                Intel Alder Lake will be a hybrid architecture, Intel confirms. The next-generation client processor architecture, expected to arrive in the second half of 2021 for both mobile and desktop, 
+                will be a combination of two CPU architectures: Golden Cove and Gracemont. The aim is to provide an efficient answer for both high performance and high core-count processing for games and 
+                productivity tasks. In short, this is Intel's answer to high core-count AMD Ryzen chips.
+            </p>
+            <p>
+                Alder Lake as been rumoured to take a hybrid approach for some time, although confirmation has only come during Intel's latest Architecture Day 2020.
+            </p>
+
+            <p>
+                So what does a hybrid architecture actually mean for us? That's a great question, because the hybrid architecture has usually, at least in its infancy, been used for battery-dependent mobile devices.
+                Take a modern laptop: you want both performance when you need it, and superb battery life. To do that, you need a highly efficient processor, and one way of building
+                such a chip is to use both low-power cores and high-power cores.
+            </p>
+            <p>
+                At the core of a hybrid architecture is the idea that the low-power cores will do as much of the work as they can at a high level of efficiency. Once they are overloaded and literally 
+                cannot deal with the workload, they shift that thread over to the high-performance core. These high-performance cores may not be as efficient, but they're quicker, more powerful,
+                and only turned on when needed.
+                
+            </p>
+            <p>
+                Thus a more power efficient chip is born.
+            </p>
+            <p>
+                It's a technique Intel has used before with its Lakefield chip. That mobile-only architecture comprises just a single Sunny Cove Core core and four low-power Atom cores, and no
+                HyperThreading. A recent patent by AMD suggests it's also looking at a similar approach, although a patent filing these days doesn't mean much.
+
+            </p>
+            <p>
+                And that's why Intel's decision to load up a hybrid architecture on desktop (as confirmed in Intel's Q2 earnings call) had us stumped. It would allow it to claim 16 cores per chip—in the 
+                eight Golden Cove, eight Gracemont configuration—but the power efficiency would have minimal impact on a wired up desktop machine.
+            </p>
+        </div>
+	</div>
+		  
+	<!--<script>
+		const first = document.getElementById("log_outt");
+		first.addEventListener("click", function (e) {
+		  e.preventDefault();
+		  localStorage.clear();
+		  document.getElementById("Loged").innerHTML = "";
+		  document.getElementById("log_outt").innerHTML = "";
+  
+		  location.replace("homeloged.html");
+		});
+	  </script>-->
+ </body>
+</html>

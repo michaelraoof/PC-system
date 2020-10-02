@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CPU Intel</title>
+  </head>
+
+  <body>
+    <div id="showcase">
+      <div id="logo">
+        <p style="font-size: 50px; color: red;">
+          <img src="gaming.png" width="80" height="80" />
+          PC Recommender
+        </p>
+      </div>
+
+      <header>
+        <nav class="navbar navbar-expand-md">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navlinks">
+              <li class="nav-item">
+                <a class="nav-link" href="homeloged.html">
+                  <img src="home.png" width="37" height="37" />
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="build.html">
+                  <img src="pc.png" width="37" height="37" />
+                  BUILD
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cat.html">
+                  <img src="menu.png" width="37" height="37" />
+                  Categories
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./News/news.html">
+                  <img src="newspaper.png" width="37" height="37" />
+                  NEWS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/mybb/forumdisplay.php?fid=2" target="_blank">
+                  <img src="foru.png" width="37" height="37" />
+                  FORUM
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="View_History.html" target="_blank">
+                  <img src="history.jpg" width="37" height="37" />
+                  History
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+          <div>
+            <a class="nav-link" id="user" data-toggle="tooltip" data-placement="bottom" title="My Acc" href="./myaccount/signin.html">
+              <img src="user.png" width="40" height="40" />
+            </a>
+          </div>
+          <div>
+            <a class="log_out" id="Loged" data-toggle="tooltip" data-placement="bottom" title="My Acc" href="#"></a>
+          </div>
+          <div class="log_out">
+            <a id="log_outt" type="button" href="homeloged.html"></a>
+          </div>
+        </div>
+      </header>
+
+      <div class="prod-name">
+        <p>CPU - INTEL</p>
+      </div>
+
+      <div class="items">
+        <div class="row text-center" id="items"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="ip.js"></script>
+    <script>
+      function getamd(data) {
+        sessionStorage.setItem("cpuintel", data);
+      }
+      fetch(`${ip}/api/users/cpuintel`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          addRows(data);
+        });
+
+      function addRows(data) {
+        var a = document.getElementById("items");
+
+        a.innerHTML = `
+         <div class="row text-center">`;
+        data.forEach((element) => {
+          a.innerHTML += `
+          <div class="col-4 col-md-2 cardd">
+           <img src="intel.png" class="card-img-top imgg" alt="..." />
+            <div class="card-bod">
+              <a onclick="return getamd('${element._id}');" href="cpu-intel-item1.html" class="btn btn-flat bot">${element["cpu_name "]}</a>
+            </div>
+          </div>`;
+        });
+
+        a.innerHTML += "</div>";
+      }
+    </script>
+    <script>
+      const first = document.getElementById("log_outt");
+      first.addEventListener("click", function (e) {
+        e.preventDefault();
+        localStorage.clear();
+        document.getElementById("Loged").innerHTML = "";
+        document.getElementById("log_outt").innerHTML = "";
+
+        location.replace("homeloged.html");
+      });
+    </script>
+    <script>
+      if (localStorage.getItem("token") !== null) {
+        //in the sys
+        console.log("in");
+        document.getElementById("user").style.visibility = "hidden";
+        document.getElementById("Loged").innerHTML = "Name: " + localStorage.getItem("name");
+        document.getElementById("log_outt").innerHTML = "Log out";
+      } else {
+        //out the sys
+        console.log("out");
+        document.getElementById("user").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>

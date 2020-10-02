@@ -1,0 +1,31 @@
+name ,manufacturer,Socket_CPU,Chipset,Memory_Max,Memory_Type,Memory_Slots,Memory_Speed,SLI_CrossFire,Price,Link
+B450 TOMAHAWK MAX,MSI,AM4,AMD B450,64 GB,DDR4,4,4133 MHz,CrossFire Capable,115$,https://amz.run/3TQQ
+B450M DS3H,Gigabyte,AM4,AMD B450,64 GB,DDR4,4,3200 MHz,CrossFire Capable,75$,https://amz.run/3TQS
+TUF GAMING X570-PLUS,Asus,AM4,AMD X570,128 GB,DDR4,4,4400 MHz,CrossFire Capable,190$,https://amz.run/3TQT
+PRIME A320M-K,Asus,AM4,AMD A320,32 GB,DDR4,2,3200 MHz,No,59$,https://amz.run/3TQU
+ROG STRIX B550-F ,Asus,AM4,AMD B550,128 GB,DDR4,4,4400 MHz,CrossFire Capable,210$,https://amz.run/3TQV
+ROG Crosshair VIII Hero,Asus ,AM4,AMD X570,128 GB,DDR4,4,4600 MHz,"CrossFire Capable
+2-Way SLI Capable",360$,https://amz.run/3TQW
+X570 AORUS MASTER,Gigabyte,AM4,AMD X570,128 GB,DDR4,4,4400 MHz,"CrossFire Capable
+2-Way SLI Capable",359$,https://amz.run/3TQX
+B460M DS3H ,GIGABYTE,LGA 1200 ,Intel B460,"	64 GB",DDR4,2,2933 MHz,No,80$,https://bit.ly/2PFLUUF
+H470M-ITX,ASRock,LGA 1200 ,Intel H470,64 GB,DDR4,2,2933 MHz,No,120$,https://bit.ly/2XJPemp
+Z490 Phantom Gaming,Asrock,LGA 1200 ,Intel Z490,128 GB,DDR4,2,4000 MHz,CrossFire Capable,150$,https://bit.ly/3fFdewV
+Z490 Aorus Elite,Gigabyte ,LGA 1200 ,Intel Z490,128 GB,DDR4,2,5000 MHz,CrossFire Capable,200$,https://bit.ly/3gDaqSl
+MEG Z490 UNIFY ,MSI,LGA 1200,Intel Z490,128 GB,DDR4,4,4800 MHz,No,300$,https://bit.ly/33Iho4T
+ROG MAXIMUS XII HERO,ASUS,LGA 1200,Intel Z490,128GB,DDR4,4,4800 MHz,"CrossFire Capable
+2-Way SLI Capable",400$,https://bit.ly/2PD1Nez
+MEG Z490 GODLIKE,MSI,LGA 1200,Intel Z490,128GB,DDR4,4,5000 MHz,"CrossFire Capable
+2-Way SLI Capable",1800$,https://bit.ly/3ik4Pk8
+X299 Micro,EVGA,LGA 2066,Intel X299,64GB,DDR4,4,4133MHz,No,170$,https://bit.ly/2DB2mTT
+X299-E Gaming II,ASUS,LGA 2066,Intel X299,256GB,DDR4,8,4266 MHz,"CrossFire Capable
+3-Way SLI Capabl",500$,https://bit.ly/2CgE1lG
+Rampage VI Extreme Encore,ASUS,LGA 2066,Intel X299,256GB,DDR4,8,4266 MHz,"CrossFire Capable
+3-Way SLI Capabl",800$,https://bit.ly/3fMLzKp
+Prime Z390-A,ASUS,LGA 1151,Intel Z390,64GB,DDR4,4,4266 MHz,No,180$,https://bit.ly/3gI3NOx
+B365M DS3H,GIGABYTE,LGA 1151,Intel B365,64GB,DDR4,4,2666 MHz,No,75$,https://bit.ly/3kn9JPr
+ROG Strix Z390-E Gaming ,ASUS ,LGA 1151,Intel Z39,64GB,DDR4,4,4266 MHz,"CrossFire Capable
+2-Way SLI Capable",240$,https://bit.ly/30Eaf3E
+X399 AORUS PRO,GIGABYTE,STR4,AMD X399,128GB,DDR4,8,3600MHz,No,385$,https://bit.ly/3fIPtUX
+X399 SLI PLUS ,MSI,STR4,AMD X399,128GB,DDR4,8,3600MHz,4-way NVIDIA SLI and 4-way AMD CrossFire,630$,https://bit.ly/33HNMod
+X399 PRO ATX 8 x,AORUS ,STR4,AMD X399,128GB,DDR4,8,3600MHz,4-way NVIDIA SLI and 4-way AMD CrossFire,983$,https://bit.ly/2PFRFlu

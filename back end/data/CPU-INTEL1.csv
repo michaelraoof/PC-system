@@ -1,0 +1,53 @@
+cpu_name ,generation,code_name,socket,process_size,foundry,tjmax,frequency,turbo_lock,base_lock,tdp,NO_cores,NO_threads,integrated_graphics,release_date,memory_support,Price,Link
+Intel Core i9-10900KF,10th,Comet Lake,1200,14 nm,Intel,100°C,"	3.7 GHz",up to 5.3 GHz,100 MHz,125 W,10,20,N/A,"Apr 30th, 2020","DDR4-2933 MHz
+Dual-channel",550$,https://bhpho.to/2DIU2RH
+Intel Core i9-10900K,10th,Comet Lake,1200,14 nm,Intel,100°C,"	3.7 GHz",up to 5.3 GHz,100 MHz,125 W,10,20,UHD Graphics 630,"Apr 30th, 2020","DDR4-2933 MHz
+Dual-channel",570$,https://amz.run/3TQp
+Intel Core i9-10900,10th,Comet Lake,1200,"	14 nm",Intel,100°C,3.6 GHz,up to 5.2 GHz,"	100 MHz",125 W,10,20,UHD Graphics 630,"Jul 27th, 2020","DDR4-2933 MHz
+Dual-channel",470$,https://amz.run/3TQq
+Intel Core i7-10700K,10th,Comet Lake,1200,14 nm,Intel,100°C,3.8 GHz,up to 5.1 GHz,100 MHz,125 W,8,16,UHD Graphics 630,"Apr 30th, 2020","DDR4-2933 MHz
+Dual-channel",410$,https://amz.run/3TQr
+Intel Core i7-10700,10th,Comet Lake,1200,14 nm,Intel,100°C,2.9 GHz,up to 4.8 GHz,100 MHz,65 W,8,16,UHD Graphics 630,"Apr 30th, 2020","DDR4-2933 MHz
+Dual-channel",310$,https://amz.run/3TQs
+Intel Core i7-10700F,10th,Comet Lake,1200,14 nm,Intel,"	100°C","	2.9 GHz",up to 4.8 GHz,100 MHz,125 W,8,16,"	N/A","Apr 30th, 2020","	DDR4-2933 MHz
+Dual-channel",300$,https://amz.run/3TQt
+Intel Core i5-10600K,10th,Comet Lake,1200,14 nm,Intel,"	100°C",4.1 GHz,up to 4.8 GHz,100 MHz,125 W,6,12,UHD Graphics 630,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",320$,https://amz.run/3TQu
+Intel Core i5-10600,10th,Comet Lake,1200,14 nm,Intel,"	100°C",3.3 GHz,up to 4.8 GHz,"	100 MHz",65 W,6,12,UHD Graphics 630,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",280$,https://amz.run/3TQv
+Intel Core i5-10500,10th,Comet Lake,1200,14 nm,Intel,"	100°C","	3.1 GHz",up to 4.5 GHz,100 MHz,65 W,6,12,UHD Graphics 630,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",250$,https://amz.run/3TQw
+Intel Core i5-10400F,10th,Comet Lake,1200,14 nm,Intel,"	100°C",2.9 GHz,up to 4.3 GHz,100 MHz,65 W,6,12,N/A,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",180$,https://amz.run/3TQx
+Intel Core i3-10350K,10th,Comet Lake,1200,14 nm,Intel,"	100°C",4.1 GHz,up to 4.8 GHz,100 MHz,91 W,4,8,UHD Graphics 630,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",170$,https://amz.run/3TQy
+Intel Core i3-10100,10th,Comet Lake,1200,14 nm,Intel,"	100°C","	3.6 GHz",up to 4.3 GHz,100 MHz,65 W,4,8,UHD Graphics 630,"	Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",130$,https://amz.run/3TR0
+Intel Pentium Gold G6600,10th,Comet Lake,1200,14 nm,Intel,100°C,4.2 GHz,N/A,100 MHz,58 W,2,4,UHD Graphics 630,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",93$,
+Intel Celeron G5920,10th,Comet Lake,1200,14 nm,Intel,100°C,"	3.5 GHz",N/A,100 MHz,58 W,2,2,UHD 610,"Apr 30th, 2020","DDR4-2666 MHz
+Dual-channel",62$,https://amz.run/3TQz
+Intel Xeon Platinum 9282,Cascade Lake-AP,Cascade Lake-AP,BGA5903,"	14 nm",Intel,100°C,2.6 GHz,up to 3.8 GHz,100 MHz,400 W,56,112,N/A,"Apr 2nd, 2019","DDR4-2933 MHz
+Quad-channel",15000$,https://amz.run/3TR1
+Intel Core i9-10980XE,10th,Cascade Lake-X,2066,14 nm,Intel,100°C,3 GHz,up to 4.8 GHz,100 MHz,"	165 W",18,36,N/A,"Oct 19th, 2019","DDR4
+Quad-channel",1700$,https://amz.run/3TR3
+Intel Core i9-10900X,10th,Cascade Lake-X,2066,14 nm,Intel,100°C,3.7 GHz,"	up to 4.7 GHz",100 MHz,165 W,10,20,N/A,"Oct 19th, 2019","DDR4
+Quad-channel",780$,https://amz.run/3TR4
+Intel Core i9-9900KS,9th,Coffee Lake-R,1151,14 nm,Intel,100°C,4 GHz,up to 5 GHz,100 MHz,"	127 W",8,16,UHD 630,"Oct 28th, 2019","DDR4-2666 MHz
+Dual-channel",600$,https://amz.run/3TR5
+Intel Core i7-9700KF,9th,Coffee Lake,1151,14 nm,Intel,100°C,3.6 GHz,up to 4.9 GHz,100 MHz,95 W,8,8,N/A,"Jan 8th, 2019","DDR4-2666 MHz
+Dual-channel",360$,https://amz.run/3TR6
+Intel Core i7-9700,9th,Coffee Lake,1151,14 nm,Intel,100°C,3 GHz,up to 4.7 GHz,100 MHz,65 W,8,8,UHD Graphics 630,"Apr 23rd, 2019","DDR4-2666 MHz
+Dual-channel",305$,https://amz.run/3TR7
+Intel Core i5-9600KF,9th,Coffee Lake,1151,14 nm,Intel,100°C,3.7 GHz,up to 4.6 GHz,100 MHz,95 W,6,6,N/A,"Jan 8th, 2019","DDR4-2666 MHz
+Dual-channel",200$,https://amz.run/3TR8
+Intel Core i5-9500F,9th,Coffee Lake,1151,14 nm,Intel,100°C,"	3 GHz",up to 4.4 GHz,100 MHz,"	65 W",6,6,N/A,"Apr 23rd, 2019","DDR4-2666 MHz
+Dual-channel",233$,https://amz.run/3TR9
+Intel Core i5-9400F,9th,Coffee Lake,1151,14 nm,Intel,100°C,2.9 GHz,up to 4.1 GHz,100 MHz,65 W,6,6,N/A,"Jan 8th, 2019","DDR4-2666 MHz
+Dual-channel",160$,https://amz.run/3TRA
+Intel Core i3-9350KF,9th,Coffee Lake,1151,14 nm,Intel,100°C,4 GHz,up to 4.6 GHz,100 MHz,91 W,4,4,N/A,"Jan 8th, 2019","DDR4-2666 MHz
+Dual-channel",165$,https://amz.run/3TRB
+Intel Core i3-9100F,9th,Coffee Lake,1151,14 nm,Intel,100°C,3.6 GHz,up to 4.2 GHz,100 MHz,65 W,4,4,N/A,"Apr 23rd, 2019","DDR4-2666 MHz
+Dual-channel",72$,https://amz.run/3TRC
+Intel Pentium Gold G5620,9th,Coffee Lake,1151,14 nm,Intel,100°C,4 GHz,N/A,100 MHz,"	51 W",2,4,UHD 630,"Feb 20th, 2019","DDR4-2666 MHz
+Dual-channel",50$,https://amz.run/3TRD

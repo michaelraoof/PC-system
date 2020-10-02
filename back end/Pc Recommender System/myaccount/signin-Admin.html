@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign in For Admin</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="showcase">
+        <div id="logo">
+            <p style="font-size: 50px; color: red"><img src="../Imges/gaming.png" width="80" height="80">PC Recommenders</p>
+        </div>
+
+        <header>
+
+
+            <nav class="navbar navbar-expand-md ">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto navlinks">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../homeloged.html"><img src="../Imges/home.png" width="37" height="37">
+                                HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../build.html"><img src="../Imges/pc.png" width="37" height="37">
+                                BUILD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../cat.html"><img src="../Imges/menu.png" width="37" height="37">
+                                Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../News/news.html"><img src="../Imges/newspaper.png" width="37" height="37"> NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost/mybb/forumdisplay.php?fid=2" target="_blank"><img
+                                    src="../Imges/foru.png" width="37" height="37"> FORUM</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </header>
+
+
+
+        <form method="GET" action="../Admin/Additems.html">
+            <div class="main">
+
+                <!-- Sing in  Form -->
+                <section class="sign-in">
+                    <div class="container">
+                        <div class="signin-content">
+                            <div class="signin-image">
+                                <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                            </div>
+                            
+                            <div class="signin-form">
+                                
+                                <h2 class="form-title">Sign In </h2>
+                                <form method="POST" class="register-form" id="login-form">
+                                    <div class="form-group">
+                                        <label for="your_name"><i
+                                                class="zmdi zmdi-account material-icons-name"></i></label>
+                                        <input type="text" name="your_name" id="your_name" placeholder="Your Name"
+                                            required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                        <input type="password" name="your_pass" id="your_pass" placeholder="Password"
+                                            required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                        <label for="remember-me"
+                                            class="label-agree-term"><span><span></span></span>Remember me</label>
+                                    </div>
+                                    <div class="form-group form-button">
+
+                                        <input type="submit" name="signin" id="signin" class="form-submit"
+                                            value="Log in" required />
+                                    </div>
+                                </form>
+                                
+                                <br>
+                                <a class="signup-image-link" href="../homeloged.html">Cancel</a>
+                                <!--                      <div class="social-login">
+                                <span class="social-label">Or login with</span>
+                                <ul class="socials">
+                                    <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                                </ul>
+                            </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </form>
+        <script>
+
+            // const myform = document.getElementById('signin');
+            // myform.addEventListener('click', function (e) {
+            //     e.preventDefault();
+            //     const opts = {
+
+            //         userName: document.getElementById('your_name').value,
+
+
+            //     };
+            //     fetch(`http://26.41.136.116:5000/api/users/login`, {
+            //         method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            //         // no-cors, *cors, same-origin
+            //         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            //         credentials: 'same-origin', // include, *same-origin, omit
+            //         headers: {
+            //             'Content-Type': 'application/json',
+            //             'Authorization': document.getElementById('your_pass').value
+            //             // 'Content-Type': 'application/x-www-form-urlencoded',
+            //         },
+            //         redirect: 'follow', // manual, *follow, error
+            //         referrerPolicy: 'no-referrer', // no-referrer, *client
+            //         body: JSON.stringify(opts)
+            //     })
+            //         .then(Response => {
+            //             status = Response.status;
+
+
+            //             return Response.json();
+            //         }).then(
+            //             (result) => {
+
+            //                 // Display error messages if values are incorrect.
+            //                 console.log(result, 'sdds')
+            //                 if (result.success) {
+            //                     console.log(result);
+            //                     localStorage.setItem('token', result.token);
+            //                     localStorage.setItem('userName', result.temp_user.userName);
+            //                     localStorage.setItem('name', result.temp_user.name);
+            //                     localStorage.setItem('email', result.temp_user.email);
+            //                     location.replace('../homeloged.html');
+            //                 }
+            //             },
+            //         )
+            //         .catch(
+            //             (err) => console.log(err)
+            //         );
+
+            // });
+
+
+
+
+        </script>
+        <!-- JS -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
